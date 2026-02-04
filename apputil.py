@@ -59,7 +59,7 @@ def to_binary(n):
 # Bellevue Almshouse dataset
 # ==================================================
 
-def task_1(df_bellevue):
+def task_1():
     """
     Return a list of column names sorted by the number
     of missing values (from least missing to most missing).
@@ -86,7 +86,7 @@ def task_1(df_bellevue):
     return sorted_columns
 
 
-def task_2(df_bellevue):
+def task_2():
     """
     Return a DataFrame with:
     - year
@@ -107,7 +107,7 @@ def task_2(df_bellevue):
     return admissions_per_year
 
 
-def task_3(df_bellevue):
+def task_3():
     """
     Return a Series showing the average age by gender.
     """
@@ -123,7 +123,7 @@ def task_3(df_bellevue):
     return avg_age_by_gender
 
 
-def task_4(df_bellevue):
+def task_4():
     """
     Return a list of the 5 most common professions.
     """
